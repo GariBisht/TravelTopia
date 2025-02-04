@@ -1,0 +1,151 @@
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    /* Header Navigation Start   */
+  
+    .navbar {
+      padding: 47px 0;
+      box-shadow: none;
+      /* background-color: rgb(182, 232, 247); */
+      background-color: transparent;
+    }
+  
+    .on-scroll .navbar {
+      padding: 24px 0;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.15);
+    }
+  
+    .burger {
+      display: none;
+      visibility: hidden;
+    }
+  
+    .brand img {
+      max-width: 115px;
+    }
+  
+    .menu {
+      position: relative;
+      width: auto;
+      height: auto;
+      margin-left: auto;
+      background: none;
+      box-shadow: none;
+      top: unset;
+      left: 0;
+      right: unset;
+      transform: unset;
+    }
+  
+    .menu-inner {
+      display: flex;
+      flex-direction: row;
+      column-gap: 50px;
+      margin: 0 auto;
+      padding: 0;
+      row-gap: 0;
+    }
+  
+    .menu-link {
+      text-transform: capitalize;
+    }
+  
+    .menu-block {
+      margin-left: 86px;
+      column-gap: 50px;
+    }
+  
+    .header-backdrop,
+    .menu-header {
+      display: none;
+    }
+   
+  
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 576px) { 
+
+ }
+
+
+@media (min-width: 768px) {
+.container{
+    padding: 0 3rem;
+
+}
+  }
+
+
+@media (min-width: 992px) { 
+.navbar{
+    padding: 47px 0 ;
+    box-shadow: none;
+    background-color: transparent;
+
+}
+.header.on-scroll .navbar 
+{
+ padding: 24px 0;
+ box-shadow: 0px 64.81481170654297px 46.85185241699219px 0px rgba(0, 0, 0, 2%), 
+ 0px 38.51852035522461px 25.481481552124023px 0px rgba(0, 0, 0, 1%), 
+ 0px 20px 13px 0px rgba(0, 0, 0, 1%), 
+ 0px 8.148148536682129px 6.518518447875977px 0px rgba(0, 0, 0, 1%), 
+ 0px 1.8518518209457397px 3.1481480598449707px 0px rgba(0, 0, 0, 0%);
+ background-color: aliceblue;
+}
+.burger{
+    display: none;
+    }    
+
+.brand img{
+    max-width: 115px;
+    max-height: 34px;
+ .menu{
+    position: relative;
+    transform:unset ;
+    overflow:unset ;
+    top: unset;
+    left: unset;
+    margin-left:auto ;
+   
+ }
+ .menu-inner{
+    flex-direction: row;
+    
+ }
+
+ .menu-header  , .header-backdrop{
+  display: none;
+ }
+
+ .menu-block{
+    margin-left: 86px;
+ }
+}
+}
+
+
+@media (min-width: 1200px) {
+
+  }
+
+
+@media (min-width: 1400px) { 
+
+ } */
