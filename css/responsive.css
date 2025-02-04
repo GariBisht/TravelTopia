@@ -93,6 +93,53 @@ footer {
 }
 
 
+ /* Hero Section Start */
+
+ .hero-section {
+  padding-bottom: 100px;
+}
+
+.hero-row {
+  flex-direction: row;
+}
+
+.hero-column.hero-column-content {
+  width: 50%;
+}
+
+.hero-column.hero-column-image {
+  width: 50%;
+}
+
+.hero-column-content {
+  order: 1;
+}
+
+.hero-column-image {
+  order: 2;
+}
+
+.hero-find-btn {
+  margin-right: 30px;
+}
+
+.hero-find-btn,
+.hero-play-btn {
+  font-size: 14px;
+}
+
+.hero-play-btn span {
+  height: 52px;
+  width: 52px;
+  margin-right: 21px;
+}
+
+.hero-sub-heading {
+  font-size: 20px;
+}
+
+/* Hero Section End */
+
 
 
 
