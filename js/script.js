@@ -41,6 +41,60 @@ window.addEventListener("scroll", () => {
 
 
 
+new Swiper(".testimonials-swiper", {
+  direction: "horizontal",
+  slidesPerView: 1,
+  allowTouchMove: true,
+  spaceBetween: 24,
+  effect: "slide",
+  speed: 500,
+  autoplay: {
+    delay: 3000,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    0: {
+      direction: "horizontal",
+      slidesPerView: 1.2,
+      spaceBetween: 24,
+    },
+    992: {
+      direction: "vertical",
+      slidesPerView: 1,
+      spaceBetween: 0,
+      effect: "fade",
+    },
+  },
+});
+
+new Swiper(".logo-section-swiper", {
+  slidesPerView: 3,
+  speed: 500,
+  loop: true,
+  autoplay: {
+    delay: 2000,
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 2,
+    },
+    992: {
+      slidesPerView: 5,
+    },
+  },
+});
+
+
+
+
+
 
 
 
